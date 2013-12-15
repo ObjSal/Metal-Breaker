@@ -1,0 +1,66 @@
+Ball -> a:
+    java.awt.Image img -> h
+    java.awt.Image imgAnim01 -> i
+    java.awt.Image imgAnim02 -> j
+    java.awt.Image imgAnim03 -> k
+    java.awt.Image imgAnim04 -> l
+    int widthHeight -> m
+    int paso -> n
+    double Yinicial -> o
+    double x -> p
+    double y -> q
+    double Xdir -> r
+    int Ydir -> s
+    int speed -> t
+    boolean ballAlive -> a
+    boolean stateAnimated -> u
+    int animCoun -> v
+    void run() -> run
+    boolean ballIsInBlock() -> a
+    void changeXdir() -> b
+    void changeYdir() -> c
+    void draw(java.awt.Graphics) -> a
+Barr -> c:
+    java.awt.Image img -> d
+    int paso -> e
+    int width -> a
+    double x -> b
+    double y -> c
+    long lastMoved -> f
+    long delay -> g
+    void moveLeft() -> a
+    void moveRight() -> b
+    void draw(java.awt.Graphics) -> a
+Block -> d:
+    java.awt.Image img -> e
+    int width -> a
+    int height -> b
+    double x -> c
+    double y -> d
+    void draw(java.awt.Graphics) -> a
+Main -> Main:
+    void main(java.lang.String[]) -> main
+MetalBreaker -> b:
+    java.awt.Toolkit toolkit -> b
+    boolean playing -> a
+    int _state -> c
+    int nBalls -> d
+    int maxBalls -> h
+    Ball[] balls -> i
+    int HBlocks -> e
+    int VBlocks -> f
+    Block[][] blocks -> g
+    Barr barr -> j
+    int Level -> k
+    int upLevelCount -> l
+    boolean moveRight -> m
+    boolean moveLeft -> n
+    java.awt.Image bBuffer -> o
+    java.awt.Graphics bBg -> p
+    void run() -> run
+    void addNewBall() -> a
+    void keyPressed(java.awt.event.KeyEvent) -> keyPressed
+    void keyReleased(java.awt.event.KeyEvent) -> keyReleased
+    void keyTyped(java.awt.event.KeyEvent) -> keyTyped
+    void update(java.awt.Graphics) -> update
+    void paint(java.awt.Graphics) -> paint
