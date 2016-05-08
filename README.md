@@ -3,6 +3,8 @@ Metal-Breaker
 
 One player arcade game (not completed)
 
+![Screenshot](https://raw.githubusercontent.com/ObjSal/Metal-Breaker/master/res/screen_shot.png)
+
 
 Fun Stuff
 =============
